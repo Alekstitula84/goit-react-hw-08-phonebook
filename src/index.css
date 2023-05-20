@@ -1,4 +1,58 @@
-@import-normalize; /* bring in normalize.css styles */
+/* @import-normalize; */
+/* bring in normalize.css styles */
+
+:root {
+  --transition__duration: 800ms;
+  --bg__color: rgba(178, 146, 171, 0.742);
+  --navlink__color: rgba(241, 231, 239, 0.976);
+  --secondary__color: rgba(51, 51, 51, 0.8);
+  --secondary__light: rgba(51, 51, 51, 0.584);
+  --glob-padding: 100px;
+
+  --navlink__hover: #ececf1;
+
+  --btn__red: rgba(255, 0, 0, 0.2);
+  --btn__green: rgba(79, 183, 93, 0.2);
+  --btn__shadow: 0 0 2px #333;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+  font-family: inherit;
+}
+
+img {
+  display: block;
+  height: auto;
+}
 
 body {
   margin: 0;
