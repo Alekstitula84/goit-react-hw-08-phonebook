@@ -1,4 +1,4 @@
-import s from 'Styles.module.css';
+import s from '../Styles.module.css';
 import { ContacstForm } from '../components/ContactsForm';
 import { Filter } from '../components/Filter';
 import { ContactsList } from '../components/ContactsList';

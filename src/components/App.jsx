@@ -11,11 +11,11 @@ import PublicRoute from './Routs/PublicRoute';
 
 import { Layout } from './Layout';
 
-const HomeView = lazy(() => import('../views/Home'));
-const Register = lazy(() => import('../views/Register'));
-const Login = lazy(() => import('../views/Login'));
-const Contacts = lazy(() => import('../views/Contacts'));
-const NotFound = lazy(() => import('../views/NotFound'));
+const HomeView = lazy(() => import('../Pages/Home'));
+const Register = lazy(() => import('../Pages/Register'));
+const Login = lazy(() => import('../Pages/Login'));
+const Contacts = lazy(() => import('../Pages/Contacts'));
+const NotFound = lazy(() => import('../Pages/NotFound'));
 
 export const App = () => {
   const dispatch = useDispatch();

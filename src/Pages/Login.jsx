@@ -1,4 +1,4 @@
-import s from 'Styles.module.css';
+import s from '../Styles.module.css';
 import { useState } from 'react';
 import authOperations from '../redux/auth/auth-operations';
 import { useDispatch } from 'react-redux';
