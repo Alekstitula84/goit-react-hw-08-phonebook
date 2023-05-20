@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import s from '../Styles.module.css';
+import s from 'Styles.module.css';
 
 const HomeView = () => (
     <div className={s.view__container}>

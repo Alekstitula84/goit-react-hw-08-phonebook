@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import s from '../Styles.module.css';
+import s from 'Styles.module.css';
 import { useSelector } from 'react-redux';
 import authSelectors from '../redux/auth/auth-selectors';
 
@@ -23,7 +23,7 @@ const Navigation = () => {
                 >
                     Home
                 </NavLink>
-            )}
+            )};
         </nav>
     );
 };
