@@ -9,11 +9,14 @@ import { Provider } from 'react-redux';
 import { App } from 'components/App';
 import './index.css';
 
+// email pd.mario.ua@gmail.com
+// passw Sasa#12345
+
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Provider store={store}>
       <PersistGate loading={null} persistor={persistor}>
-        <BrowserRouter basename="/">
+        <BrowserRouter >
           <App />
         </BrowserRouter>
       </PersistGate>
