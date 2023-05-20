@@ -1,7 +1,7 @@
 import s from '../Styles.module.css';
-import { ContacstForm } from '../components/ContactsForm';
-import { Filter } from '../components/Filter';
-import { ContactsList } from '../components/ContactsList';
+import { ContacstForm } from '../ContactsForm';
+import { Filter } from '../Filter';
+import { ContactsList } from '../ContactsList';
 
 const Contacts = () => {
     return (
