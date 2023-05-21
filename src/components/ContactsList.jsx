@@ -2,7 +2,7 @@ import s from '../Styles.module.css';
 import { Loader } from '../components/Loader/Loader';
 import { useEffect } from 'react';
 import { useDispatch } from 'react-redux';
-import { useContacts } from './Hooks/hooks';
+import { useContacts } from '../Hooks/hooks';
 import { contactsOperations } from '../redux/contacts/contactsOperations';
 import { deleteToast } from './Toasts';
 import { useSelector } from 'react-redux';

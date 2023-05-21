@@ -40,6 +40,7 @@ const Login = () => {
                     value={email}
                     placeholder="example@email.com"
                     onChange={handleChange}
+                    required
                 />
                 <input
                     type="password"
@@ -47,6 +48,8 @@ const Login = () => {
                     value={password}
                     placeholder="password"
                     onChange={handleChange}
+                    required
+                    minLength={7}
                 />
                 <button type="submit " className={s.form__btn}>
                     Log in

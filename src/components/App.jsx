@@ -24,7 +24,7 @@ export const App = () => {
     authSelectors.getIsFetchingCurrentUser
   );
 
-  console.log(isFetchingCurrentUser);
+  // console.log(isFetchingCurrentUser);
 
   useEffect(() => {
     dispatch(authOperations.fetchCurrentUser());

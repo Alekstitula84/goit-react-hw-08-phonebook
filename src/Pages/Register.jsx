@@ -5,7 +5,6 @@ import { useDispatch } from 'react-redux';
 
 const Register = () => {
     const dispatch = useDispatch();
-
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
@@ -46,6 +45,9 @@ const Register = () => {
                     value={name}
                     placeholder="Name"
                     onChange={handleChange}
+                    required
+                    minLength={6}
+                    maxLength={40}
                 />
                 <input
                     type="email"
@@ -53,6 +55,7 @@ const Register = () => {
                     value={email}
                     placeholder="example@email.com"
                     onChange={handleChange}
+                    required
                 />
                 <input
                     type="password"
@@ -60,6 +63,8 @@ const Register = () => {
                     value={password}
                     placeholder="password"
                     onChange={handleChange}
+                    required
+                    minLength={7}
                 />
                 <button type="submit " className={s.form__btn}>
                     Registration
